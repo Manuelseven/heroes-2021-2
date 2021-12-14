@@ -13,6 +13,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
 
 
 
@@ -30,6 +32,7 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+  
 
 
   ],

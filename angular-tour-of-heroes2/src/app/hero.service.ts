@@ -16,7 +16,7 @@ import { MessageService } from './message.service';
 })
 export class HeroService {
 
-  private heroesUrl = 'http://localhost:3000';  
+  private heroesUrl = 'http://localhost:3000/heroes';  
 
   constructor(private http: HttpClient, private messageService: MessageService) {
         this.log('HeroService: constructor HeroService');
